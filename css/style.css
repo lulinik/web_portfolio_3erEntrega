@@ -241,10 +241,11 @@ footer{
         list-style: none;
     }
 
-.actions{
+    /* hay que encontrar donde esta el problema de gris*/
+    /*.actions{
     display:flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
 }
 
 .actions button{
@@ -356,4 +357,80 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Pseudo clases */
+/* Pseudo elementos */
+
+/* Empieza responsive de Areas de trabajo */
+@media (width <768px){
+    .areasdetrabajo{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "proyectosocialmedia1a"
+        "proyectosocialmedia1b"
+        "proyectosocialmedia2a"
+        "proyectosocialmedia2b"
+        "proyectosocialmedia3a"
+        "proyectosocialmedia3b";
+        }
+        .areasdetrabajo .proyectosocialmedia1a{
+                flex-direction: column;
+        }
+
+        .areasdetrabajo .proyectosocialmedia1b{
+            flex-direction: column;
+        }
+        
+        .areasdetrabajo .proyectosocialmedia2a{
+            flex-direction: column;
+        }
+        
+        .areasdetrabajo .proyectosocialmedia2b{
+            flex-direction: column;
+        }
+
+        .areasdetrabajo .proyectosocialmedia3a{
+            flex-direction: column;
+        }
+
+        nav ul{
+            display: none;
+        }
+        .filters span,
+        .filters ul{
+            display: none;
+        }
+
+        .filters select{
+            margin-top: 10px;
+            width: 400px;
+            /* background color */
+            padding: 8px;
+            /* border radius: 4px */
+        }
+
+        .actions {
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .areasdetrabajo section{
+            padding: 10px;
+            margin: 10px; */
+        }
+
+        /* termina responsive areas de trabajo*/
+
+        /*empieza responsive home*/
+        .portfolio figure{
+            width: 100%;
+        }
+
+        footer{
+            flex-direction: column;
+        }
 }
