@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botonera{
+    background-color: rgb(183, 197, 189);
+}
+
+    .botonera img{
+        width: 150px;
+    }
+
+    .botonera li a{
+        font-size: 0.9rem;
+        color: rgba(59, 81, 69);
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+
+    }
+    
+h1,
+h2,
+h3{
+            color:rgb(59, 81, 69);
+            font-weight: 400;
+            margin: 10px 0;
+    }
+
+h2{
+    font-size: 2em;
+}
+
+    /*p{
+        color:white;
+        font size: 1em;
+        line-height: 0em;
+        padding: 0 20px;
+        font-weight: 100; */
+    }
+    
