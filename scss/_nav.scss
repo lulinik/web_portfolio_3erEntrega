@@ -1,17 +1,20 @@
 //nesting - anidacion
-.nav{
+nav{
     background-color: $backgroundColorNav;
     ul{
         li{
             margin-left: 5px;
             a{
                 color: $mainColor;
+                font-family: $mainFont;
                 font-size: $textMd;
                 &:hover{
-                    color: $secondaryColor
+                    color: $secondaryColor;
                 }
             }
         }
-
+    }
+    img{
+        width: 150px;
     }
 }
