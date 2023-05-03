@@ -56,3 +56,25 @@ h2{
     padding: 50px;
     border: none;
 }
+
+footer{
+    padding: 0 30 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer svg {
+        width: 30px;
+        fill:rgb(59, 81, 69);
+        margin-right: 10px;
+    }    
+    
+    footer ul{
+        list-style: none;
+
+    }
+        footer ul li a {
+           text-decoration: none; 
+           font-size: 1.4rem;
+           color:rgb(59, 81, 69);
+        }
