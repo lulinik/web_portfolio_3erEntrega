@@ -1,0 +1,58 @@
+h1,
+h2,
+h3{
+        color:$mainColor;
+        font-weight: $fontRegular;
+        margin: 10px 0;
+}
+
+header img{
+    width: 100%;
+}
+
+body{
+    background-color: $backgroundColorNav;
+}
+
+h1{
+    color: $mainColor;
+    font-family: $mainFont;
+            font-weight: $fontBold;
+            font-size: $textLg;
+}
+
+p{
+    color: $secondaryColor;
+    font-family: $mainFont;
+            font-weight: $fontRegular;
+            font-size: $textMd;
+            line-height: 1.4em;
+}
+
+h2{
+    color: $mainColor;
+    font-family: $mainFont;
+            font-weight: $fontBold;
+            font-size: $textLg;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* selectores de id */
+
+#intro{
+    
+}
+
+/* propiedades */
+
+.contenedor{
+    /* box model */
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    padding: 50px;
+    border: none;
+}
